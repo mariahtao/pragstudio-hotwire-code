@@ -40,7 +40,7 @@ class TackleBoxItemsController < ApplicationController
     
     @bait = @item.bait
 
-    render @bait
+    render :create
   end
 
 end
